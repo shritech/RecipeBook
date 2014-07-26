@@ -35,7 +35,9 @@
     }
     cell.textLabel.text = [recipe.ingredients objectAtIndex:indexPath.row];
     return cell;
+    
 }
+
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
